@@ -1,0 +1,25 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard",
+    "standard-react"
+  ],
+  "env"     : {
+    "browser" : true
+  },
+  "globals" : {
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__DEBUG_NEW_WINDOW__" : false,
+    "__BASENAME__" : false
+  },
+  "rules": {
+    "quotes": [2, "single", "avoid-escape"],
+    "semi": [2, "never"],
+    "strict": [2, "global"],
+    "space-before-function-paren": 0,
+    "no-unused-vars": [2, {"args": "none"}],
+    "react/self-closing-comp": 2
+  }
+}

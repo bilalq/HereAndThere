@@ -1,0 +1,42 @@
+{
+  "name": "here-and-there",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalq/HereAndThere.git"
+  },
+  "keywords": [
+    "travel"
+  ],
+  "author": "Bilal Quadri <bilalquadri92@gmail.com> (http://bilalquadri.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bilalq/HereAndThere/issues"
+  },
+  "homepage": "https://github.com/bilalq/HereAndThere#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint-plugin-react": "^3.16.1",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.1.2",
+    "react-router": "^1.0.3",
+    "react-router-redux": "^2.1.0",
+    "redux": "^3.1.4"
+  }
+}
