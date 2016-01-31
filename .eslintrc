@@ -1,6 +1,7 @@
 {
   "parser"  : "babel-eslint",
   "extends" : [
+    "eslint:recommended",
     "standard",
     "standard-react"
   ],
@@ -15,11 +16,20 @@
     "__BASENAME__" : false
   },
   "rules": {
-    "quotes": [2, "single", "avoid-escape"],
-    "semi": [2, "never"],
-    "strict": [2, "global"],
-    "space-before-function-paren": 0,
+    "indent": [2, 2],
+    "no-console": 0,
+    "no-const-assign": 2,
+    "no-debugger": 0,
     "no-unused-vars": [2, {"args": "none"}],
-    "react/self-closing-comp": 2
+    "no-var": 2,
+    "object-shorthand": 2,
+    "prefer-arrow-callback": 2,
+    "prefer-const": 2,
+    "prefer-template": 2,
+    "quotes": [2, "single", "avoid-escape"],
+    "react/self-closing-comp": 2,
+    "semi": [2, "never"],
+    "space-before-function-paren": 0,
+    "strict": [2, "global"]
   }
 }
