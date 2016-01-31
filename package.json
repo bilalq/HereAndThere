@@ -39,10 +39,14 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "arrive": "^2.3.0",
     "babel-plugin-transform-object-rest-spread": "^6.3.13",
     "babel-preset-es2015": "^6.3.13",
+    "bootstrap-material-design": "^0.5.7",
     "history": "^1.17.0",
     "isomorphic-fetch": "^2.2.1",
+    "jquery": "^2.2.0",
+    "lodash": "^4.1.0",
     "muicss": "^0.3.0",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
