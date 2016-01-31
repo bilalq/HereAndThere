@@ -23,6 +23,7 @@
     "no-unused-vars": [2, {"args": "none"}],
     "no-var": 2,
     "object-shorthand": 2,
+    "prop-types": "ignore",
     "prefer-arrow-callback": 2,
     "prefer-const": 2,
     "prefer-template": 2,

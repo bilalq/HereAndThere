@@ -20,7 +20,7 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loaders: ['react-hot', 'babel?presets[]=es2015&presets[]=react'],
+      loaders: ['react-hot', 'babel?presets[]=es2015&presets[]=react&plugins[]=transform-object-rest-spread&plugins[]=transform-decorators-legacy&plugins[]=transform-es2015-destructuring'],
       include: path.join(__dirname, 'src')
     },
     {
