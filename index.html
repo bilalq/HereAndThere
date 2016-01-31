@@ -5,20 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Here And There</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/css/bootstrap-material-design.css" rel=stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/css/ripples.css" rel=stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   </head>
   <body>
     <div class="container">
+      <div class="row">
+        <div class="col m6">
+          <div class="card">
+            <div class="card-content">
+              <form id="city-form">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">location_on</i>
+                    <input id="city" type="text">
+                    <label for="city">City</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="map-spot col m6">
+        </div>
+      </div>
+
+      <div style="" id="places">
+        <div class="row">
+          <div class="col m6">
+            <ul class="collapsible">
+            </ul>
+          </div>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://bowercdn.net/c/arrive-2.3.0/minified/arrive.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/js/material.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/js/ripples.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <script src="/static/bundle.js"></script>
   </body>
 </html>
